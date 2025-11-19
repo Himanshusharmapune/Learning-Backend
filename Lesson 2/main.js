@@ -2,6 +2,9 @@
 import http from "http"
 import {a} from "./export.js"
 console.log(a)
+import {b} from "./export.js"
+console.log(b)
+
 
 
 
