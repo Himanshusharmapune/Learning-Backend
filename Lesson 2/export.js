@@ -14,8 +14,13 @@ export default obj;
 
 
 //if you want to use require syntax then we have to remove type:"module" from package.json
+/*
 module.exports ={
     a:1,
     b:4,
     c:5
 }
+*/
+
+let d = 55;
+module.exports = d;
