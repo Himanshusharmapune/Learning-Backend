@@ -1,0 +1,12 @@
+{
+  "name": "learning-backend",
+  "version": "1.0.0",
+  "description": "As I have revised JS, now I will be learning JS in depth, following CWH.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
