@@ -1,4 +1,5 @@
-const fs = require("fs")
+//const fs = require("fs")
+import fs from "fs/promises"
 //console.log(fs) 
 
 
@@ -9,3 +10,7 @@ fs.writeFile("hima1.txt", "Himanshu is a good man",()=>{
     })
 
 })
+
+fs.appendFile("hima.txt","yoyoboy",(e,d)=>{
+    console.log(d)
+}) 
